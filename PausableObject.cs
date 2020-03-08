@@ -7,7 +7,7 @@ using UnityEngine.AI;
 /// Handles enabling and disabling different Unity components.
 /// Works directly with the EventManager
 /// </summary>
-public abstract class PausableObject : MonoBehaviour
+public class PausableObject : MonoBehaviour
 {
     protected bool paused = false;
 
